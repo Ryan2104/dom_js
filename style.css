@@ -1,0 +1,18 @@
+.caixa{
+ position: flex;
+ left: 20vw;
+ right: 20vw;
+ top: 1vh;
+ padding-left: 20vw;
+
+
+
+}
+button{
+    width: 20vw;
+    height: 10vh;
+}
+fieldset{
+    width:40vw;
+    padding-left:20vw;
+}

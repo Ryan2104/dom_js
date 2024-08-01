@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    form{
+        width:20vw;
+    }
+    #alvo{
+
+        width:20px;
+        height: 20px;
+        border: solid 1px navy;
+        left: 0;
+        top: 0;
+        position: absolute;
+        border-radius: 20px;
+        margin:0;
+        padding: 0;
+        
+
+    }
+</style>
+<body>
+
+<div class="caixa">
+    <form>
+       <fieldset>
+            <legend>Cadastro de curriculo </legend>
+            
+    <h1 id="titulo">Formulario em HTML</h1>
+    <br>
+    <br>
+    <label>Nome:<input type="text" name="nome" id="nome"></label><br>
+    <br>
+    <label>Data de nascimento<input type="date" name="data" id="data"></label><br>
+    <br>
+    <label for="cor">Cor:</label>
+    <input type="color" name="cor" id="cor"><br>
+    <br>
+
+    <label for="dependentes"> dependentes</label>
+    <input type="number" name="dependentes" id="dependentes">
+    <br>
+
+    <label for="civil">estado civil </label>
+
+    <select>
+        <option>Feliz</option>
+        <option>Em rolo</option>
+        <option>triste</option>
+    </select>
+<br>
+<br>
+<br>
+<label"> Endereço<br><br></label>
+    <textarea id="endereco"></textarea>
+    <BR>
+    <BR>
+    <label for="habilidades">habilidades<br></label>
+    <input type="radio" name="habilidades"> HTML<BR>
+    <input type="radio" name="habilidades"> CSS<BR>
+    <input type="radio" name="habilidades"> JS<BR>
+    <input type="radio" name="habilidades"> OFFICE<BR>
+        <br>
+<button id="botao">Cadastrar</button>
+
+
+        </form>
+    </fieldset>
+</div>
+<div id="alvo"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
